@@ -26,6 +26,7 @@ router.post("/", async (req, res) => {
   }
 });
 
+<<<<<<< HEAD
 
 // 📌 Delete a user by ID (DELETE request)
 router.delete("/:id", async (req, res) => {
@@ -50,4 +51,6 @@ router.delete("/:id", async (req, res) => {
   }
 });
 
+=======
+>>>>>>> b8f77e466539993db8c25257b909defdfcf7d0c9
 export default router;
